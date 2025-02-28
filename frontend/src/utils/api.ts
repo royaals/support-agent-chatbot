@@ -1,6 +1,6 @@
 import { CDP, SearchResponse, HealthStatus, InitializeResponse } from '../types';
 
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_REACT_APP_API_BASE_URL || 'http://localhost:5000';
 
 class ApiClient {
     private async fetchWithError(url: string, options?: RequestInit) {
