@@ -1,6 +1,6 @@
 # CDP Documentation Assistant
 
-This application provides a user-friendly interface to search and retrieve information from the documentation of various Customer Data Platforms (CDPs) including Segment, mParticle, Lytics, and Zeotap.
+This application provides a user-friendly interface to search and retrieve information from the documentation of various Customer Data Platforms (CDPs). It uses a combination of web scraping and Elasticsearch to efficiently retrieve relevant content from the official documentation.
 
 ## Setup Instructions
 
