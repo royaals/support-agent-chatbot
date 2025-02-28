@@ -15,8 +15,9 @@ This application provides a user-friendly interface to search and retrieve infor
    ```
    pip install -r requirements.txt
    ```
+3. replace the `ELASTICSEARCH_URL` and `ELASTICSEARCH_API_KEY` with your own values in the `.env` file
 
-3. Start the Flask server:
+4. Start the Flask server:
    ```
    python app.py
    ```
