@@ -11,7 +11,7 @@ import { ErrorBoundary } from '../components/ErrorBoundary';
 
 function App() {
     const [query, setQuery] = useState('');
-    const [cdp, setCdp] = useState<CDP>('segment');
+    const [cdp, setCdp] = useState<CDP>('mparticle');
     const [loading, setLoading] = useState(false);
     const [initializing, setInitializing] = useState(false);
     const [response, setResponse] = useState<SearchResponse | null>(null);
